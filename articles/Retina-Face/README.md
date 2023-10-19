@@ -2,7 +2,7 @@
   Ele alınan konu face recognition, 2D face alignment ve 3D face reconstruction yüz lokalizasyon görevlerini ortak eğitim yoluyla bir çerçevede birleştirip birbirinden faydalanmalarını sağlamaktır.Face recognition ve 2D face alignment ile paralel bir eğitim gerçekleştirilerek 3D face reconstruction için oldukça sağlam bir model oluşturulmuştur.
   
 ## İzlenen Yaklaşım
-* 3D Face Reconstruction 
+  ### **3D Face Reconstruction** 
 
   Sabit üçgen topolojisi ile önceden tanımlanmş sabitsayıda N köşe belirleniyor.Bu köşelerin birleştirilmesi ile hizalanmış 3D face elde ediliyor.Bu işlem için köşelerin sınırlandırılması gerekiyor.Bunu için köşe kaybını kullanıyoruz.(2D => 3D)
 
@@ -11,7 +11,7 @@
   Bir yüzü 3D'den 2D'ye yansıtırken meydana gelen bilgi kaybı nedeniyle z koordinatlarını ve görünmeyen köşelerin x ve y koordinaatlarını tahmin etmek zorlaşır bunun önüne geçmek için kenar kaybını hesaplıyoruz.
   kenar kaybını ve köşe kaybını birleştirerek ağ regrasyon kaybı hesaplanıyor.
 
-* Multi-level Face Localisation
+### **Multi-level Face Localisation**
 
   Training anchor için multi-task loss en aza indirilmelidir.
   3D ağları oluşturmak için ortografik projeksiyon kullanılıyor.Bu sebeple tüm köşeleri burun ucunun z koordinatı 0 olacak şekilde ayarlanır.Sonrasında z koordinatları anchor ölçeği ile normalleştiriliyor.
@@ -20,7 +20,7 @@
     
     NOT=Daha anlamsal noktalrın yerelleştirilmesi, daha doğru kutu tahminine katkıda bulunacağı ve yüz algılama veri kümesindeki daha zorlu eğitim senaryoları daha sağlam nokta tahmini ile sonuçlanacağı için her görev diğer görevleerden yararlanabiliyor durumdadır.
     
-* Single-shot Multi-level Face Localisation
+  ### **Single-shot Multi-level Face Localisation**
 
   Model 3 ana bileşenden oluşur; Feature pyramid network, the context head module ve the cascade multi-task loss.
   Feature pyramid network giriş görüntülerini alır ve farklı ölçeklerde beş özellik haritası çıkarır.
