@@ -34,4 +34,4 @@ Wider Face belirttiğim gibi 60 olay kategorisi içerir. Olayların yüz algıla
 * NOT= Olay odaklı yapısı nedeniyle Wider Face veri kümesi , farklı arka planlara sahip çok sayıda sahneye sahiptir ve bu durum veri kümesini hem olumlu hem de olumsuz örneklerle iyi bir eğitim kaynağı olarak mümkün kılar.
 
 ## Nasıl İndirebilirim
-http://shuoyang1213.me/WIDERFACE/ 
+http://shuoyang1213.me/WIDERFACE/  adresinden download kısmında bulunan training, validation, testing ve face annotations kısımlarını indirmemiz yeterli.
