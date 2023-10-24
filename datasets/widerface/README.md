@@ -32,3 +32,6 @@ Wider Face veri seti
 Wider Face belirttiğim gibi 60 olay kategorisi içerir. Olayların yüz algılamaya etkisini belirlemek için scale, occlusion ve pose ile olayları kategorize ediyoruz. Bu sıralamaya göre olaylar 3 bölüme ayrılır; Kolay(41-60), Orta(21-40) ve Zor(1-20).
 
 * NOT= Olay odaklı yapısı nedeniyle Wider Face veri kümesi , farklı arka planlara sahip çok sayıda sahneye sahiptir ve bu durum veri kümesini hem olumlu hem de olumsuz örneklerle iyi bir eğitim kaynağı olarak mümkün kılar.
+
+## Nasıl İndirebilirim
+http://shuoyang1213.me/WIDERFACE/ 
