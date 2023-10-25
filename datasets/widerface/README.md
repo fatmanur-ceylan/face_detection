@@ -36,14 +36,11 @@ Wider Face belirttiğim gibi 60 olay kategorisi içerir. Olayların yüz algıla
 ## Nasıl İndirebilirim?
 http://shuoyang1213.me/WIDERFACE/
 
-```bash
-wget http://shuoyang1213.me/WIDERFACE/support/bbx_annotation/wider_face_split.zip
-unzip wider_face_split.zip
-```
+Huggingface datasets-server'ını kullanarak aşağıdaki python scripti ile train, validasyon ve test datasetlerini doğrudan yükleyebilirsiniz.
 
 ```python
 from datasets import load_dataset
 train_ds = load_dataset("wider_face", split="train")
-val_ds = load_dataset("wider_face", split="val")
+val_ds = load_dataset("wider_face", split="validation")
 test_ds = load_dataset("wider_face", split="test")
 ```
