@@ -1,7 +1,15 @@
 # Face_Detect Model Library
 
 ## RetinaNet/RetinaFace
+### Installing the pretrained model
 
+**From the Drive Link:**
+Below is the google drive link for the pretrained model, you can proceed and download it in your local workspace:
+
+https://drive.google.com/file/d/1_DKgGxQWqlTqe78pw0KavId9BIMNUWfu/view
+
+
+**Via Wget Package Manager:**
 To be able to download the RetinaFace pretrained models from the drive, you need to run the following commands in your workspace folder.
 
 ``` bash
