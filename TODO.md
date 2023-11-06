@@ -6,3 +6,6 @@ https://docs.google.com/spreadsheets/d/1e3pZI6Dp-5mOEvhO8oXBB5zG7bISZ2jbUe-PMVsF
 
 ## Product Backlog
 
+Face: Canlılık Analizi
+Yüz tanıma, yüz eşleştirme
+Yüz üzerinden yaş hesaplama
