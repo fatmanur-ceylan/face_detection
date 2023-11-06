@@ -8,6 +8,10 @@ Below is the google drive link for the pretrained model, you can proceed and dow
 
 https://drive.google.com/file/d/1_DKgGxQWqlTqe78pw0KavId9BIMNUWfu/view
 
+Secondly, here is the retinanet model link that you can download (the model in the link is used in this code):
+
+https://drive.google.com/drive/folders/13QJAVlBJApjTHldgRGmZAEYKcNLQ_ftL?usp=sharing
+
 
 **Via Wget Package Manager:**
 To be able to download the RetinaFace pretrained models from the drive, you need to run the following commands in your workspace folder.
